@@ -1,0 +1,51 @@
+body{
+    /* text-align: center; */
+    margin:0px;
+    font-family:sans-serif;
+
+}
+
+#heading{
+    text-align:center;
+    margin-top:25px;
+    color:gray;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+
+li{
+    background-color: gray;
+    color:white;
+    margin:1rem 1rem;
+    padding: 1rem;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+li:hover{
+    background-color: black;
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid gray;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-trash{
+    color:white;
+}
